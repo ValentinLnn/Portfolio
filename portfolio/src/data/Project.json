@@ -1,6 +1,6 @@
 [
     {
-        "picture":"/assets/kasa.png",
+        "picture":"Portfolio/assets/kasa.png",
         "title": "Kasa",
         "description": "Projet sur lequel j'ai appris à utiliser React et React Router pour créer une expérience utilisateur moderne et réactive.",
         "problems": "Le gros problème que j'ai pu rencontrer sur le projet était celui sur l'utilisation et l'explication des states avec React. Hormis cela, dans l'ensemble tout était plutôt simple.",
@@ -10,7 +10,7 @@
 			"Développer des éléments de l'interface d'un site web grâce à des composants React"
 		],
         "logo": [
-            "/assets/react.png"
+            "Portfolio/assets/react.png"
         ],
         "github": "https://github.com/ValentinLnn/P6OC",
         "demo": "https://valentinlnn.github.io/P6OC/#/home"
@@ -18,7 +18,7 @@
 
     },
     {
-        "picture":"/assets/monvieuxgrimoire.png",
+        "picture":"Portfolio/assets/monvieuxgrimoire.png",
         "title": "Mon vieux Grimoire",
         "description": "Projet au cours du quel j'ai appris comment fonctionner le backend et tout ce qui l'entoure (Base de données, etc...).",
         "problems": "Concernant ce projet, je m'étais laissé aller sur les données du cours par rapport au projet, celui-ci était totalement dépassé, même si dans l'ensemble j'avais très bien compris, je fus pris de court sur deux, trois aspects concernant la sécurité.",
@@ -28,9 +28,9 @@
 			"Stocker des données de manière sécurisée"
 		],
         "logo": [
-            "/assets/nodejsdark.png",
-            "/assets/expressjsdark.png",
-            "/assets/mongodb.png"
+            "Portfolio/assets/nodejsdark.png",
+            "Portfolio/assets/expressjsdark.png",
+            "Portfolio/assets/mongodb.png"
         ],
         "github": "https://github.com/ValentinLnn/Projet7OC"
 
