@@ -1,4 +1,14 @@
 @import "../App.scss";
+@font-face {
+    font-family: "Noto Sans Display";
+    src: url("../../public/assets/fonts/NotoSansDisplay-VariableRegular.ttf") format("TrueType");
+    font-display: swap;    
+}
+
+*{
+    font-family: "Noto Sans Display", sans-serif;
+}
+
 .core{
     padding: 0 20px;
 
