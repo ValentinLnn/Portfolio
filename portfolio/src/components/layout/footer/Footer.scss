@@ -1,0 +1,15 @@
+@import '../../main.scss';
+
+.footer {
+
+    font-family: 'Noto Sans Display', sans-serif;
+    background-color: transparent;
+    border-top: 2px solid rgba(255,255,255, 0.1);
+    width: 100%;
+    &_btn-bar {
+        padding-top: 10px;
+    }
+    &_text {
+        padding: 10px;
+    }
+}

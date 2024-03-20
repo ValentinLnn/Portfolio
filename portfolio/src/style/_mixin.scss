@@ -1,0 +1,23 @@
+
+
+@mixin breakpoint-small {
+    @media screen and (min-width: 600px) {
+      @content;
+    }
+  }
+  @mixin breakpoint-medium {
+    @media screen and (min-width: 900px) {
+      @content;
+    }
+  }
+
+@mixin breakpoint-large {
+    @media screen and (min-width: 1200px) {
+      @content;
+    }
+  }
+@mixin display-flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

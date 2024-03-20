@@ -1,0 +1,11 @@
+@import "../../../App.scss";
+.navbar {
+    background-color: transparent !important;
+    backdrop-filter: blur(10px);
+    &_toolbar{
+      justify-content: center;
+      @include breakpoint-small{
+        justify-content: flex-end;
+      }
+    }
+  };

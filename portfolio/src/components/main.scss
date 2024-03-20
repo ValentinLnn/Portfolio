@@ -1,0 +1,19 @@
+@import "../App.scss";
+.core{
+    padding: 0 20px;
+
+    section {
+    h3 {
+        margin: 20px 0!important;
+    } 
+}
+}
+.section-spacing{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    @include breakpoint-small{
+        gap:64px;
+    }
+
+}
