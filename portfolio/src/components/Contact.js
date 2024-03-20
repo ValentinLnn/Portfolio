@@ -17,13 +17,16 @@ export default function Contact() {
     event.preventDefault();
 
     try {
-      const response = await fetch("https://portfolio-cd3l.onrender.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://portfolio-cd3l.onrender.com/api/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
         console.log("Message envoyé avec succès !");
