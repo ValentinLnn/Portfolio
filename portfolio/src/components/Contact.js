@@ -17,7 +17,7 @@ export default function Contact() {
     event.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3002/api/contact", {
+      const response = await fetch("https://portfolio-cd3l.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
