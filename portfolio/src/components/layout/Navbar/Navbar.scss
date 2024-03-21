@@ -5,7 +5,7 @@
     &_toolbar{
       justify-content: center;
       @include breakpoint-small{
-        justify-content: flex-end;
+        justify-content: space-between;
       }
     }
   };

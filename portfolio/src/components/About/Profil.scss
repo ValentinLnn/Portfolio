@@ -1,0 +1,21 @@
+@import '../main.scss';
+
+.profil-container{
+    @include display-flex-centered;
+    flex-direction: column;
+
+    @include breakpoint-small{
+        flex-direction: row;
+        margin: 0 auto;
+        width: 70%;
+        gap: 10%;
+    }
+    .MuiAvatar-root{
+        width: 150px;
+        height: 150px;
+        @include breakpoint-small{
+            width: 300px;
+            height: 300px;
+        }
+    }
+}

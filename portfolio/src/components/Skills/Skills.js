@@ -1,15 +1,15 @@
-import Grid from "@mui/material/Unstable_Grid2";
+import React from "react";
 import Button from "@mui/material/Button";
 import skillsData from "../../data/Skills.json";
 
 export default function Skills() {
   return (
-    <Grid container rowSpacing={1} columnSpacing={1}>
+    <div className="skills-container">
       {skillsData[0].skills.map((skill, index) => (
-        <Grid key={index} xs={6} sm={4}>
-          <Button variant="contained">{skill}</Button>
-        </Grid>
+        <Button key={index} variant="outlined">
+          {skill}
+        </Button>
       ))}
-    </Grid>
+    </div>
   );
 }

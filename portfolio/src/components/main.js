@@ -1,12 +1,12 @@
 import Navbar from "./layout/Navbar/Navbar";
 import Profil from "./About/Profil";
-import ButtonBar from "./About/ButtonBar";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact";
 import Footer from "./layout/footer/Footer";
 import { Typography } from "@mui/material";
 import "./main.scss";
+import Aboutme from "./About/Aboutme";
 
 export default function Main() {
   return (
@@ -17,7 +17,7 @@ export default function Main() {
         <div className="section-spacing">
           <section id="Introduction">
             <Typography variant="h3">À propos de moi </Typography>
-            <ButtonBar />
+            <Aboutme />
           </section>
           <section id="Skills">
             <Typography variant="h3">Mes compétences</Typography>

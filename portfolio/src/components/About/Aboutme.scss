@@ -1,0 +1,9 @@
+@import '../main.scss';
+
+.aboutme-container{
+    margin:0 auto;
+    width: 100%;
+    @include  breakpoint-small{
+        width: 50%;
+    }
+}

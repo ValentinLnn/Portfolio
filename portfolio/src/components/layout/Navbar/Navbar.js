@@ -17,21 +17,23 @@ export default function Navbar() {
     <AppBar position="sticky" elevation={0} className="navbar">
       <Toolbar className="navbar_toolbar">
         <Avatar alt="Valentin L" src="" />
-        <Button
-          onClick={() => handleNavigation("Introduction")}
-          color="inherit"
-        >
-          À propos
-        </Button>
-        <Button onClick={() => handleNavigation("Skills")} color="inherit">
-          Skills
-        </Button>
-        <Button onClick={() => handleNavigation("Projects")} color="inherit">
-          Projets
-        </Button>
-        <Button onClick={() => handleNavigation("Contact")} color="inherit">
-          Contact
-        </Button>
+        <div className="navbar_toolbar_btn-container">
+          <Button
+            onClick={() => handleNavigation("Introduction")}
+            color="inherit"
+          >
+            À propos
+          </Button>
+          <Button onClick={() => handleNavigation("Skills")} color="inherit">
+            Skills
+          </Button>
+          <Button onClick={() => handleNavigation("Projects")} color="inherit">
+            Projets
+          </Button>
+          <Button onClick={() => handleNavigation("Contact")} color="inherit">
+            Contact
+          </Button>
+        </div>
       </Toolbar>
     </AppBar>
   );
