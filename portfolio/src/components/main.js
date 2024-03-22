@@ -4,7 +4,7 @@ import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact";
 import Footer from "./layout/footer/Footer";
-import { Typography } from "@mui/material";
+import Typography from "@mui/material/Typography";
 import "./main.scss";
 import Aboutme from "./About/Aboutme";
 

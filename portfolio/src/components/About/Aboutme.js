@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonBar from "./ButtonBar";
-import { Typography } from "@mui/material";
+import Typography from "@mui/material/Typography";
 import "./Aboutme.scss";
 function Aboutme() {
   return (

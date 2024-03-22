@@ -1,6 +1,6 @@
 import "./Footer.scss";
 import ButtonBar from "../../About/ButtonBar";
-import { Typography } from "@mui/material";
+import Typography from "@mui/material/Typography";
 
 const Footer = () => {
   return (

@@ -3,7 +3,7 @@ import CardContent from "@mui/material/CardContent";
 import Card from "@mui/material/Card";
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Unstable_Grid2";
-import { Button } from "@mui/material";
+import Button from "@mui/material/Button";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
