@@ -7,7 +7,7 @@ function Aboutme() {
     <div className="aboutme-container">
       <Typography paragraph>
         Ancien électricien, reconverti récemment en tant que développeur web
-        ayant toujours été berçé dans l'informatique, il me parassait évident de
+        ayant toujours été bercé dans l'informatique, il me paraissait évident à
         poursuivre dans cette voie.
       </Typography>
       <Typography paragraph>

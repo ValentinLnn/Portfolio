@@ -43,7 +43,7 @@ export default function CardProject({ project, index }) {
         </IconButton>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>Problèmes sur le Projet :</Typography>
+            <Typography paragraph>Problèmes sur le projet :</Typography>
             <Typography paragraph>{project.problems}</Typography>
             <Typography paragraph>Compétences développées :</Typography>
             <ul>

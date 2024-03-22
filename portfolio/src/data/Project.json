@@ -2,7 +2,7 @@
     {
         "picture":"assets/kasa.webp",
         "title": "Kasa",
-        "description": "Projet sur lequel j'ai appris à utiliser React et React Router pour créer une expérience utilisateur moderne et réactive.",
+        "description": "Projet sur lequel j'ai appris à utiliser React et React Router pour créer une expérience utilisatrice moderne et réactive.",
         "problems": "Le gros problème que j'ai pu rencontrer sur le projet était celui sur l'utilisation et l'explication des states avec React. Hormis cela, dans l'ensemble tout était plutôt simple.",
         "skills": [
 			"Initialiser une application avec Create React App (CRA)",
@@ -20,7 +20,7 @@
     {
         "picture":"assets/monvieuxgrimoire.webp",
         "title": "Mon vieux Grimoire",
-        "description": "Projet au cours du quel j'ai appris comment fonctionner le backend et tout ce qui l'entoure (Base de données, etc...).",
+        "description": "Projet au cours du quel j'ai appris comment fonctionner le backend et tout ce qui l'entoure (Base de données, etc.).",
         "problems": "Concernant ce projet, je m'étais laissé aller sur les données du cours par rapport au projet, celui-ci était totalement dépassé, même si dans l'ensemble j'avais très bien compris, je fus pris de court sur deux, trois aspects concernant la sécurité.",
         "skills": [
 			"Implémenter un modèle logique de données conformément à la réglementation",
