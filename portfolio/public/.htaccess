@@ -45,6 +45,3 @@ Header set Cache-Control "max-age=604800, public"
         Header set Access-Control-Allow-Origin "*"
     </FilesMatch>
 </IfModule>
-
-RewriteCond %{REQUEST_URI} ^(.)//(.)$
-RewriteRule . %1/%2 [R=301,L]
