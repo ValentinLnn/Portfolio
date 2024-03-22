@@ -16,19 +16,19 @@ export default function Main() {
         <Profil />
         <div className="section-spacing">
           <section id="Introduction">
-            <Typography variant="h3">À propos de moi </Typography>
+            <Typography variant="h2">À propos de moi </Typography>
             <Aboutme />
           </section>
           <section id="Skills">
-            <Typography variant="h3">Mes compétences</Typography>
+            <Typography variant="h2">Mes compétences</Typography>
             <Skills />
           </section>
           <section id="Projects">
-            <Typography variant="h3">Mes projets</Typography>
+            <Typography variant="h2">Mes projets</Typography>
             <Projects />
           </section>
           <section id="Contact">
-            <Typography variant="h3">Me contacter</Typography>
+            <Typography variant="h2">Me contacter</Typography>
             <Contact />
           </section>
         </div>

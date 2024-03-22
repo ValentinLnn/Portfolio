@@ -1,5 +1,4 @@
 @import '../main.scss';
-
 .profil-container{
     @include display-flex-centered;
     flex-direction: column;
@@ -7,7 +6,7 @@
     @include breakpoint-small{
         flex-direction: row;
         margin: 0 auto;
-        width: 70%;
+        width: 60%;
         gap: 10%;
     }
     .MuiAvatar-root{
