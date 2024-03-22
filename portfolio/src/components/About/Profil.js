@@ -7,7 +7,7 @@ export default function Banner() {
   return (
     <div className="profil-container">
       <Typography variant="h2">Valentin Launay, Développeur Web.</Typography>
-      <Avatar alt="Banner Avatar" src="Portfolio/avatar.webp" />
+      <Avatar alt="Banner Avatar" src="./avatar.webp" />
     </div>
   );
 }
