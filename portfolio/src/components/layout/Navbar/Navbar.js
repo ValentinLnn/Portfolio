@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <AppBar position="sticky" elevation={0} className="navbar">
       <Toolbar className="navbar_toolbar">
-        <Avatar alt="Valentin L" src="/avatar.webp" />
+        <Avatar alt="Valentin L" src="Portfolio/avatar.webp" />
         <div className="navbar_toolbar_btn-container">
           <Button
             onClick={() => handleNavigation("Introduction")}
