@@ -20,7 +20,7 @@
     {
         "picture":"assets/monvieuxgrimoire.webp",
         "title": "Mon vieux Grimoire",
-        "description": "Projet au cours du quel j'ai appris comment fonctionner le backend et tout ce qui l'entoure (Base de données, etc.).",
+        "description": "Projet au cours du quel j'ai appris comment le backend fonctionne et tout ce qui l'entoure (Base de données, etc.).",
         "problems": "Concernant ce projet, je m'étais laissé aller sur les données du cours par rapport au projet, celui-ci était totalement dépassé, même si dans l'ensemble j'avais très bien compris, je fus pris de court sur deux, trois aspects concernant la sécurité.",
         "skills": [
 			"Implémenter un modèle logique de données conformément à la réglementation",
