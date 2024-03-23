@@ -9,12 +9,13 @@
         width: 60%;
         gap: 10%;
     }
-    .MuiAvatar-root{
-        width: 150px;
-        height: 150px;
-        @include breakpoint-small{
-            width: 300px;
-            height: 300px;
+    .MuiAvatar-root {
+        width: 30vw; 
+        height: 30vw; 
+    
+        @include breakpoint-small {
+          width: 25vw;
+          height: 25vw; 
         }
     }
 }
