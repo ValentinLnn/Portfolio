@@ -1,4 +1,5 @@
 const Contact = require("../models/contact.js");
+const nodemailer = require("nodemailer");
 
 exports.submitForm = async (req, res, next) => {
   try {
@@ -18,6 +19,27 @@ exports.submitForm = async (req, res, next) => {
     });
 
     await newContact.save();
+
+    let transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.MAIL_SENDER,
+        pass: process.env.PASSWORD_SENDER,
+      },
+    });
+
+    let mailOptions = {
+      from: `"Valentin Portfolio Contact" <${process.env.MAIL_SENDER}>`,
+      to: process.env.MAIL_ADDRESSEE,
+      subject: "Nouveau message de contact",
+      text: `Vous avez reçu un nouveau message de contact:
+        Prénom: ${firstName}
+        Nom: ${lastName}
+        Email: ${email}
+        Message: ${message}`,
+    };
+
+    await transporter.sendMail(mailOptions);
 
     res.status(201).json({ message: "Contact form submitted successfully" });
   } catch (error) {
